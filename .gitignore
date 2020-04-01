@@ -1,0 +1,12 @@
+*_[tu].[ch]
+*.o
+*.so
+app
+*.bc
+.vscode
+
+# Main SGX files
+App/App.cpp
+Enclave/Enclave.edl
+Enclave/Enclave.cpp
+enclave_header.h
