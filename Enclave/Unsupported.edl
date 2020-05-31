@@ -1,0 +1,6 @@
+enclave {
+	untrusted {
+		char* strcpy_OCALL( [in, out, string] char* dest, [in, string] const char* src );
+		char* strdup_OCALL( [in, string] const char* str );
+	};
+};

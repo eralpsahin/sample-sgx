@@ -9,4 +9,5 @@ app
 App/App.cpp
 Enclave/Enclave.edl
 Enclave/Enclave.cpp
-enclave_header.h
+App/Ecalls.cpp
+App/Ecalls.h
